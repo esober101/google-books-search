@@ -29,19 +29,6 @@ class Books extends Component {
         this.setState({ searchField: e.target.value })
     }
 
-    saveBooks = (thisBook) => {
-        API.savedBooks({
-            id: thisBook.id,
-            title: thisBook.title,
-            authors: thisBook.authors,
-            description: thisBook.description,
-            image: thisBook.image,
-            link: thisBook.link
-        })
-        .then(res => console.log("Success", res))
-        .catch(err => console.log("error", err));
-    }
-
     render() {
         return (
         <div>
