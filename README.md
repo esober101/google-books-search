@@ -14,13 +14,14 @@
 A Google Books Search app created using React, Node, Express, and MongoDB.
 
 ## Installation
-TBA
+- npm install
+- npm start
 
 ## Deployed Site
-TBA
+https://limitless-sea-14002.herokuapp.com/
 
 ## Screenshot
-TBA
+![Screenshot](images/books-search.jpg "Screenshot")
 
 ## License
 ![badge](https://img.shields.io/badge/license-MIT-blue)
